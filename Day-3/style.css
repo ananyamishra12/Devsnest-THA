@@ -1,0 +1,31 @@
+
+h1{
+    color:rgb(11, 11, 109);
+    text-align: center;
+    
+}
+html,body{
+    font-family: cursive;
+    background-color:beige;
+    color: rgb(86, 86, 209);
+}
+.container{
+    display: flex;
+    padding: 1em;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100vw;
+    border:2px solid rgb(11, 11, 109);
+}
+.left_div{
+    border-right:2px solid rgb(11, 11, 109);
+    padding: 1em;  
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.right_div{
+    border-left:2px solid rgb(11, 11, 109);
+    padding: 1em;
+    width: 50%;
+}
