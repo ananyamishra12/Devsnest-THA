@@ -14,15 +14,11 @@ console.log(array_Clone([1, 2, [4, 0]]));
    
 // Question-3
 first1=[7, 9, 0, -2];
-console.log(first1.shift());
-first2=[[],3];
-console.log(first2.shift());
-first3=[[7, 9, 0],3];
-console.log(first3.shift());
-first4=[[7, 9, 0, -2],6];
-console.log(first4.shift());
-first5=[[],[7, 9, 0, -2],-3];
-console.log(first5.shift());
+console.log(first1.slice(0,1));
+console.log(first1.slice(0,0));
+console.log(first1.slice(2));
+console.log(first1.slice(0,3));
+console.log(first1.slice());
 
 // Question-4
 myColor = ["Red", "Green", "White", "Black"];
