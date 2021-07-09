@@ -1,0 +1,57 @@
+.box .seat{
+    background-color: black;
+    width: 80px;
+    height: 70px;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    transition: 1s;
+
+}
+
+.box{
+    top: 33%; 
+    left: 30%;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(6,2fr);
+    grid-gap: 10px;
+}
+.top{  
+    height:10em;
+    border-bottom:3px  solid black;
+    border-top:3px  solid black;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.booked{
+    position: absolute;
+    left: 30%;    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+
+}
+.remaining{
+    position: absolute;
+    left: 60%;
+    font-size: 2em;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+#rs{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+#bs{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+.seat:hover{
+    background-color: rgb(90, 89, 89);
+}
+
+.box .clicked{
+    background-color: rgb(217, 255, 0);
+}
