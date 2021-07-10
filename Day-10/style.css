@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.container/*creating grid*/
+{
+    
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(4,1fr);    
+    perspective: 1000px;
+
+}
+.back , .front /*giving style to logo picture and emoji picture*/
+{
+    width:100px;
+    height:80px;
+    background-color: #807f7f;
+    padding: 10px;
+    border-radius: 4px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.card {
+    width: 23%;
+    height: 23%;
+    margin: 5px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    cursor: pointer;
+    background-color: transparent;
+    
+  }
+  .card:active /*when you click a button it presses in slightly*/
+  {
+    transform: scale(0.95);
+    transition: transform-origin 0.2s ease-in-out;
+  }
+.card.flip{
+    transform-origin:center;
+    transform: rotatey(180deg);
+    
+    cursor: pointer;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(66, 66, 66);
+    display: flex;
+  }
+.box{   
+    margin-top: 10em;
+    margin-left: 20em;   
+}
+.front {
+    transform: rotateY(180deg);
+  }
