@@ -1,0 +1,22 @@
+p{
+    text-align: center;
+    font-size: 1.7em;
+}
+.quiz{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12em;
+    margin-left: 35vw;
+    border: 5px solid black;
+    height: 40vh;
+    width: 25vw;
+    background-color: beige;
+}
+body{
+    background-color: rgb(117, 117, 117);
+}
+#submit{
+    
+    margin-top: 1em;
+    margin-left: 35vw;
+}
