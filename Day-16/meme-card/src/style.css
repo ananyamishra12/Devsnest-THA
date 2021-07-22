@@ -1,0 +1,37 @@
+.card{
+    color: red;
+    
+    border: 2px solid black;
+    border-radius: 0.5em;
+    display: inline-block;
+    height: 320px;
+    width: 320px;
+    box-shadow:  10px 10px 5px #aaaaaa;
+    text-align: center;
+}
+h1, h3{
+    padding: 10px;
+}
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 35vw;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+img{
+    position: relative;
+    width: 15em;
+    height: 13em;
+    padding: 10px;
+    display: flex;
+    margin-left: auto;
+  margin-right: auto;
+    
+}
