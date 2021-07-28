@@ -1,0 +1,27 @@
+.container{
+    background-color: rgb(167, 167, 172);
+    display: inline-block;
+    padding: 30px;
+    margin-left: 30em;
+    margin-top: 10em;
+    height: 25em;
+    overflow-y: scroll;    
+    width: 500px;
+    box-shadow: 2px 3px 9px -1px #000;
+}
+.heading{
+    display: block;
+    font-size: 2em;
+    padding-left: 15em;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;    
+    margin: auto; 
+    width: 90%;
+  border-radius: 2em;
+  border: 0.3em solid rgb(39, 39, 136);
+  box-shadow: 3px 1px 9px -1px #3a408a;
+  padding: 10px;
+}
