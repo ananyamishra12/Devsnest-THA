@@ -1,0 +1,12 @@
+.app{
+    height: 50vh;
+    width: 50vw;
+    margin: 15em;
+    margin-left: 35em;
+}
+button{
+    margin:10px;
+    height: 5em;
+    width: 5em;
+    background-color: rgb(42, 165, 89);    
+}
