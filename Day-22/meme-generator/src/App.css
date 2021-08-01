@@ -35,6 +35,11 @@
     padding: 3px;
     margin: 5px;
 }
+h1{
+    position: relative;
+    left:15em;
+    align-text: center;
+}
 .buttonContainer{
     padding: 3px;
     margin: 5px;
