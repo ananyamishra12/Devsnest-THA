@@ -1,7 +1,16 @@
 import React from 'react'
-
+import { FirstName } from './App';
 const ComC = () => {
-    return <h1>Component C</h1>
+    return <div>
+        <FirstName.Consumer> 
+            {/* consumer always expects a function */}
+            {
+            (fname)=>{
+                return <h1>{fname}</h1>
+            }
+            }
+        </FirstName.Consumer>
+    </div>
 };
 
 export default ComC;
